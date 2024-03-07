@@ -1,0 +1,149 @@
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+.subHeading {
+  color: var(--color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1.6px;
+}
+.heading {
+  color: var(--color);
+  font-family: var(--headingFontFamily);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-end;
+  width: 100%;
+
+  margin: 0 100px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 85px;
+  width: auto;
+}
+
+.box {
+  width: 230px;
+  height: 93px;
+  padding: 12px;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: var(--color);
+  font-weight: 500;
+  text-align: center;
+}
+.step1 {
+  /* margin-top: 19px; */
+  margin-top: 5px;
+}
+.condition {
+  position: relative;
+}
+.conditionLabel {
+  width: 190px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.yesRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(calc(100% + 2px), 0%);
+}
+.noLeft {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(calc(-100%), 0%);
+}
+.step2Container {
+  display: flex;
+  align-items: center;
+  gap: 325px;
+
+  margin-bottom: 5px;
+}
+
+.step3Container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 90px;
+
+  /* margin-top: 20px; */
+}
+.step3abContainer,
+.step3cdContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+.step3abContainer {
+  gap: 30px;
+}
+
+.leftRight {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, calc(-100% - 3px));
+}
+.step3cdContainer .leftRight {
+  transform: translate(-5%, calc(-100% - 3px));
+}
+.allData {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.infoContainer {
+  padding: 28px;
+  border-radius: 10px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 353px;
+}
+.info,
+.title {
+  color: var(--color);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.title {
+  font-weight: 600;
+}
