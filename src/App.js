@@ -5,7 +5,7 @@ import MainComponent from "./components/MainComponent/MainComponent";
 function App() {
   const [allData, setAllData] = useState({
     fontFamily: "'Inter', sans-serif",
-    headingFontFamily: "'Inter', sans-serif",
+    headingFontFamily: "'Manrope', sans-serif",
     mainBg: "#fff",
     header: {
       subHeading: "STRATEGY",

@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0px;
+  gap: 2px;
 }
 .subHeading {
   color: var(--color);
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22px;
   letter-spacing: 1.6px;
 }
@@ -18,7 +18,7 @@
   font-family: var(--headingFontFamily);
   font-size: 30px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
 }
 
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
 
   margin: 0 100px;
